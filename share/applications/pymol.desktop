@@ -1,14 +1,12 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
 Name=PyMOL Molecular Graphics System
 GenericName=Molecular Modeller
 Comment=Model molecular structures and produce high-quality images of them
 Type=Application
+Terminal=false
 TryExec=pymol
-Exec=run_pymol.sh %U
+Exec=%{HOME}/.local/share/pymol/run_pymol.sh %U
 Icon=pymol
-Path=
-StartupNotify=true
 MimeType=chemical/x-pdb
 Categories=Education;Science;Chemistry;

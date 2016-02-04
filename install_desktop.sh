@@ -11,4 +11,4 @@ fi
 cp -r $root/share/applications/* "$target/applications/"
 cp -r $root/share/pymol/* "$target/pymol/"
 
-sudo ln -s $target/pymol/script/run_pymol.sh /usr/local/bin/run_pymol.sh
+sed "s!%{HOME}!${HOME}!" -i $target/applications/pymol.desktop
