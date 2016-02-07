@@ -1,9 +1,9 @@
-![PyMOL](./share/icons/hicolor/24x24/pymol.png) PyMOL.desktop
+![PyMOL](./share/icons/hicolor/24x24/apps/pymol.png) PyMOL.desktop
 ===============================================================================
 
 Bash script collection to make PyMOL in freedesktop.org (Ubuntu, Debian, CentOS, etc.) looks like:
 
-![PyMOL](./share/icons/hicolor/256x256/pymol.png)
+![PyMOL](./share/icons/hicolor/256x256/apps/pymol.png)
 
 Usage
 -------------------------------------------------------------------------------
